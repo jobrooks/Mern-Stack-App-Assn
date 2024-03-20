@@ -1,4 +1,4 @@
-import {MongoClient, mongoClient, ServerApiVersion } from "mongodb"
+import {MongoClient, ServerApiVersion } from "mongodb"
 
 const uri = process.env.ATLAS_URI || "";
 const client = new MongoClient(uri, {
